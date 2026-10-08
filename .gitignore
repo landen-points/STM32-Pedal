@@ -1,0 +1,17 @@
+# KiCad temporary & backup files
+*-backups/
+*.bak
+*.kicad_pcb-bak
+*.sch-bak
+*-cache.lib
+*.lck
+*.tmp
+*_autosave-*
+
+# Output directories (optional: ignore Gerber outputs if you regenerate them)
+# plot/
+# gerber/
+
+# OS / Editor clutter
+.DS_Store
+*.swp
