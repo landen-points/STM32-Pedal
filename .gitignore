@@ -15,3 +15,6 @@
 # OS / Editor clutter
 .DS_Store
 *.swp
+
+src/STM32-Pedal/.history/
+*.kicad_prl
