@@ -4432,7 +4432,7 @@
 		(uuid "31c3e433-bb59-49e4-8aa2-cfd7820fc7f6")
 	)
 	(hierarchical_label "ANALOG_OUT"
-		(shape input)
+		(shape output)
 		(at 251.46 143.51 0)
 		(effects
 			(font
@@ -11088,28 +11088,28 @@
 			)
 		)
 		(pin "4"
-			(uuid "f0ee5fbd-0cd3-4d36-87fa-80cf2d491784")
+			(uuid "f0ee5fbd-0cd3-4d36-87fa-80cf2d491785")
 		)
 		(pin "8"
-			(uuid "94b67e4a-1d3c-4826-891a-e35bf5281b43")
+			(uuid "94b67e4a-1d3c-4826-891a-e35bf5281b44")
 		)
 		(pin "3"
-			(uuid "a673fb03-0da5-4d18-961e-10681d0b3fc6")
+			(uuid "a673fb03-0da5-4d18-961e-10681d0b3fc7")
 		)
 		(pin "7"
-			(uuid "93ae9d00-b206-4093-96a3-bfda211d8ff6")
+			(uuid "93ae9d00-b206-4093-96a3-bfda211d8ff7")
 		)
 		(pin "1"
-			(uuid "6b96c876-3802-43a0-97e6-eaafca357e6c")
+			(uuid "6b96c876-3802-43a0-97e6-eaafca357e6d")
 		)
 		(pin "2"
-			(uuid "f188615e-f774-4dcb-be43-7bef244bcff8")
+			(uuid "f188615e-f774-4dcb-be43-7bef244bcff9")
 		)
 		(pin "5"
-			(uuid "5d5ad095-8fc4-4abf-b4a8-091d47dced0c")
+			(uuid "5d5ad095-8fc4-4abf-b4a8-091d47dced0d")
 		)
 		(pin "6"
-			(uuid "f4bab535-0803-43cd-ab31-e6b886fe033f")
+			(uuid "f4bab535-0803-43cd-ab31-e6b886fe0340")
 		)
 		(instances
 			(project "STM32-Pedal"
@@ -11186,28 +11186,28 @@
 			)
 		)
 		(pin "5"
-			(uuid "e5af7d57-e1c5-4b22-a62e-14bfde7c9e15")
+			(uuid "e5af7d57-e1c5-4b22-a62e-14bfde7c9e16")
 		)
 		(pin "2"
-			(uuid "9d08b3c2-e726-4210-b0ff-09f3db63988b")
+			(uuid "9d08b3c2-e726-4210-b0ff-09f3db63988c")
 		)
 		(pin "4"
-			(uuid "1e08e76d-f224-4c11-b005-9477a70afa98")
+			(uuid "1e08e76d-f224-4c11-b005-9477a70afa99")
 		)
 		(pin "8"
-			(uuid "9fc56e0c-0360-4016-bead-3ea0a109d3df")
+			(uuid "9fc56e0c-0360-4016-bead-3ea0a109d3e0")
 		)
 		(pin "3"
-			(uuid "b6df1208-1b34-4269-9679-7595d2381b90")
+			(uuid "b6df1208-1b34-4269-9679-7595d2381b91")
 		)
 		(pin "7"
-			(uuid "f3dc2d51-fd95-4a13-a1d4-370c5fca5997")
+			(uuid "f3dc2d51-fd95-4a13-a1d4-370c5fca5998")
 		)
 		(pin "1"
-			(uuid "a6bc5abf-4338-4b7d-82ff-3eb2fc8e032a")
+			(uuid "a6bc5abf-4338-4b7d-82ff-3eb2fc8e032b")
 		)
 		(pin "6"
-			(uuid "b609b571-8042-481d-95ba-60b51046052c")
+			(uuid "b609b571-8042-481d-95ba-60b51046052d")
 		)
 		(instances
 			(project "STM32-Pedal"
@@ -11284,28 +11284,28 @@
 			)
 		)
 		(pin "4"
-			(uuid "f0ee5fbd-0cd3-4d36-87fa-80cf2d491784")
+			(uuid "f0ee5fbd-0cd3-4d36-87fa-80cf2d491786")
 		)
 		(pin "8"
-			(uuid "94b67e4a-1d3c-4826-891a-e35bf5281b43")
+			(uuid "94b67e4a-1d3c-4826-891a-e35bf5281b45")
 		)
 		(pin "3"
-			(uuid "a673fb03-0da5-4d18-961e-10681d0b3fc6")
+			(uuid "a673fb03-0da5-4d18-961e-10681d0b3fc8")
 		)
 		(pin "7"
-			(uuid "93ae9d00-b206-4093-96a3-bfda211d8ff6")
+			(uuid "93ae9d00-b206-4093-96a3-bfda211d8ff8")
 		)
 		(pin "1"
-			(uuid "6b96c876-3802-43a0-97e6-eaafca357e6c")
+			(uuid "6b96c876-3802-43a0-97e6-eaafca357e6e")
 		)
 		(pin "2"
-			(uuid "f188615e-f774-4dcb-be43-7bef244bcff8")
+			(uuid "f188615e-f774-4dcb-be43-7bef244bcffa")
 		)
 		(pin "5"
-			(uuid "5d5ad095-8fc4-4abf-b4a8-091d47dced0c")
+			(uuid "5d5ad095-8fc4-4abf-b4a8-091d47dced0e")
 		)
 		(pin "6"
-			(uuid "f4bab535-0803-43cd-ab31-e6b886fe033f")
+			(uuid "f4bab535-0803-43cd-ab31-e6b886fe0341")
 		)
 		(instances
 			(project "STM32-Pedal"
@@ -11702,28 +11702,28 @@
 			)
 		)
 		(pin "5"
-			(uuid "e5af7d57-e1c5-4b22-a62e-14bfde7c9e15")
+			(uuid "e5af7d57-e1c5-4b22-a62e-14bfde7c9e17")
 		)
 		(pin "2"
-			(uuid "9d08b3c2-e726-4210-b0ff-09f3db63988b")
+			(uuid "9d08b3c2-e726-4210-b0ff-09f3db63988d")
 		)
 		(pin "4"
-			(uuid "1e08e76d-f224-4c11-b005-9477a70afa98")
+			(uuid "1e08e76d-f224-4c11-b005-9477a70afa9a")
 		)
 		(pin "8"
-			(uuid "9fc56e0c-0360-4016-bead-3ea0a109d3df")
+			(uuid "9fc56e0c-0360-4016-bead-3ea0a109d3e1")
 		)
 		(pin "3"
-			(uuid "b6df1208-1b34-4269-9679-7595d2381b90")
+			(uuid "b6df1208-1b34-4269-9679-7595d2381b92")
 		)
 		(pin "7"
-			(uuid "f3dc2d51-fd95-4a13-a1d4-370c5fca5997")
+			(uuid "f3dc2d51-fd95-4a13-a1d4-370c5fca5999")
 		)
 		(pin "1"
-			(uuid "a6bc5abf-4338-4b7d-82ff-3eb2fc8e032a")
+			(uuid "a6bc5abf-4338-4b7d-82ff-3eb2fc8e032c")
 		)
 		(pin "6"
-			(uuid "b609b571-8042-481d-95ba-60b51046052c")
+			(uuid "b609b571-8042-481d-95ba-60b51046052e")
 		)
 		(instances
 			(project "STM32-Pedal"

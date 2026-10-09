@@ -16,7 +16,18 @@
 		)
 		(uuid "749c674e-1966-4561-a525-f5f189380126")
 	)
-	(text "TO DO:\nANALOG POWER LDO (TPS7A4700, LP5907) FROM 9V - FEEDING OPA2134 AND ADC\nDIGITAL POWER REGULATOR\nFERRITE BEAD IN SERIES W/ INPUT OF ANALOG SUPPLY RAIL\nRUN LTSPICE ON INPUT STAGE (20.4 kHz LOW PASS)"
+	(text "PCB LAYOUT NOTES:\nUSB Differentials - target 90 ohms differential impedance"
+		(exclude_from_sim no)
+		(at 22.098 185.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "c0bc4c02-8987-40cf-9f04-60f8c644bdfa")
+	)
+	(text "TO DO:\nFERRITE BEAD IN SERIES W/ INPUT OF ANALOG SUPPLY RAIL\nRUN LTSPICE ON INPUT STAGE (20.4 kHz LOW PASS)\nBYPASS RELAY"
 		(exclude_from_sim no)
 		(at 153.924 19.304 0)
 		(effects
@@ -40,6 +51,26 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 100.33) (xy 146.05 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08235aea-7264-49e0-9c27-07b801cc14b7")
+	)
+	(wire
+		(pts
+			(xy 100.33 105.41) (xy 195.58 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "407deda8-1393-460b-a3ac-603224fc5a21")
+	)
+	(wire
+		(pts
 			(xy 166.37 132.08) (xy 175.26 132.08)
 		)
 		(stroke
@@ -50,7 +81,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 137.16) (xy 113.03 137.16)
+			(xy 104.14 138.43) (xy 113.03 138.43)
 		)
 		(stroke
 			(width 0)
@@ -80,6 +111,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 106.68) (xy 193.04 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "631f822a-91a2-4056-83f1-a50ec578aefc")
+	)
+	(wire
+		(pts
 			(xy 166.37 147.32) (xy 175.26 147.32)
 		)
 		(stroke
@@ -87,6 +128,26 @@
 			(type default)
 		)
 		(uuid "6b4c1304-7aef-4f20-a29e-ae1bcc91122e")
+	)
+	(wire
+		(pts
+			(xy 95.25 107.95) (xy 190.5 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a80e7eb-f3a2-4cdb-97b2-5dd4105474db")
+	)
+	(wire
+		(pts
+			(xy 195.58 105.41) (xy 195.58 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80e55c02-9e21-4d87-8921-1bd7c927a0ca")
 	)
 	(wire
 		(pts
@@ -110,6 +171,26 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 107.95) (xy 190.5 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ff9c8eb-3b72-4304-af76-cd962cff570e")
+	)
+	(wire
+		(pts
+			(xy 100.33 100.33) (xy 100.33 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0a85b97-11f9-49d6-a629-a2fa336930df")
+	)
+	(wire
+		(pts
 			(xy 166.37 127) (xy 175.26 127)
 		)
 		(stroke
@@ -120,7 +201,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 66.04) (xy 113.03 66.04)
+			(xy 104.14 76.2) (xy 113.03 76.2)
 		)
 		(stroke
 			(width 0)
@@ -130,13 +211,43 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 100.33) (xy 77.47 114.3)
+			(xy 95.25 100.33) (xy 95.25 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7580e0a-4949-42e5-8a3b-2f188a1c4a8d")
+	)
+	(wire
+		(pts
+			(xy 82.55 100.33) (xy 82.55 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d2f00c6f-4e4e-47ed-ae26-05036be6db4f")
+	)
+	(wire
+		(pts
+			(xy 97.79 106.68) (xy 193.04 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6e01e64-5580-49f5-b760-0c1b0852c85c")
+	)
+	(wire
+		(pts
+			(xy 97.79 100.33) (xy 97.79 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f161dfae-42c1-4a2d-ab23-e8a05ae00771")
 	)
 	(sheet
 		(at 113.03 114.3)
@@ -177,7 +288,7 @@
 			)
 		)
 		(pin "IN_BUFFERED" input
-			(at 113.03 137.16 180)
+			(at 113.03 138.43 180)
 			(uuid "ab67dafa-2da2-4767-98e5-993c8fff3ddb")
 			(effects
 				(font
@@ -186,8 +297,8 @@
 				(justify left)
 			)
 		)
-		(pin "ANALOG_OUT" input
-			(at 139.7 114.3 90)
+		(pin "ANALOG_OUT" output
+			(at 146.05 114.3 90)
 			(uuid "f1f609e9-730f-4579-96c4-871d8362c5d7")
 			(effects
 				(font
@@ -313,7 +424,7 @@
 			)
 		)
 		(pin "IN_BUFFERED" output
-			(at 104.14 137.16 0)
+			(at 104.14 138.43 0)
 			(uuid "a8b4c01b-2fcd-48c7-863a-f9c2077a760b")
 			(effects
 				(font
@@ -323,7 +434,7 @@
 			)
 		)
 		(pin "AUX_IN" input
-			(at 77.47 114.3 90)
+			(at 82.55 114.3 90)
 			(uuid "c7bc0b59-8086-4e5d-935b-6e35a3dbda8b")
 			(effects
 				(font
@@ -425,7 +536,7 @@
 			)
 		)
 		(pin "AUX_IN" output
-			(at 77.47 100.33 270)
+			(at 82.55 100.33 270)
 			(uuid "1679f816-cc2b-44f9-9d43-ca5196d01860")
 			(effects
 				(font
@@ -434,14 +545,44 @@
 				(justify left)
 			)
 		)
-		(pin "AUX_OUT" output
-			(at 104.14 66.04 0)
+		(pin "AUX_OUT" input
+			(at 104.14 76.2 0)
 			(uuid "075f003d-860e-4f75-bc9d-c539b2c75e59")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "USB_DM" output
+			(at 97.79 100.33 270)
+			(uuid "9af54177-7d92-4dde-b176-6111e3bec767")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_DP" output
+			(at 95.25 100.33 270)
+			(uuid "abbde993-b035-4409-9f64-3830c1e4b718")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_VBUS" output
+			(at 100.33 100.33 270)
+			(uuid "791ccc30-281c-4515-9378-02038ac12adc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -491,8 +632,18 @@
 			)
 		)
 		(pin "AUX_OUT" output
-			(at 113.03 66.04 180)
+			(at 113.03 76.2 180)
 			(uuid "ae1aa952-33e9-4c99-b986-6350ceb6ff8a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ANALOG_OUT" input
+			(at 146.05 100.33 270)
+			(uuid "71da8f2d-b19b-4c6a-98b6-567ec2f0ab67")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -614,6 +765,36 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "USB_DM" input
+			(at 193.04 114.3 90)
+			(uuid "51bf62a8-4b38-4a76-9478-78a8b611bca5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_DP" input
+			(at 190.5 114.3 90)
+			(uuid "a4151afd-bcc5-4927-a092-7cb8bcf2a721")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_VBUS" input
+			(at 195.58 114.3 90)
+			(uuid "73989834-764f-4faf-ae19-367bb3762816")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

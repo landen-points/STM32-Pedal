@@ -1014,152 +1014,13 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:VCC"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "VCC"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VCC\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "VCC_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VCC_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(rectangle
-		(start 25.4 73.66)
+		(start 90.17 73.66)
 		(end 255.27 130.81)
 		(stroke
 			(width 0)
-			(type solid)
+			(type dash)
 			(color 255 0 0 1)
 		)
 		(fill
@@ -1167,71 +1028,17 @@
 		)
 		(uuid "4a778018-67a9-49a1-9f41-29566a7b5c2e")
 	)
-	(text "BIAS"
+	(text "SENSITIVE ANALOG"
 		(exclude_from_sim no)
-		(at 109.22 90.17 0)
+		(at 108.458 69.088 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.905 1.905)
 				(color 255 0 0 1)
 			)
+			(justify left top)
 		)
-		(uuid "10db9d5a-dea9-4e80-b47f-4f40108244c5")
-	)
-	(text "IN"
-		(exclude_from_sim no)
-		(at 97.79 98.044 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "1dcd83ce-7af0-45be-bc97-e14f1029fb44")
-	)
-	(text "BUFFER - OPA134"
-		(exclude_from_sim no)
-		(at 139.446 92.202 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "2cb8c03d-e78b-4d7f-9d12-a2f96304360b")
-	)
-	(text "2ND ORDER SALLEN-KEY LOW PASS"
-		(exclude_from_sim no)
-		(at 212.09 79.756 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "8a932af6-f655-42a6-9c71-6a0c11173495")
-	)
-	(text "BIAS"
-		(exclude_from_sim no)
-		(at 162.052 93.218 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "bc33558c-0ad6-4141-b9ab-2c91fb039f56")
-	)
-	(text "VCC BIAS"
-		(exclude_from_sim no)
-		(at 58.928 105.664 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "df6ad727-66f0-4264-8db0-362aa50503c1")
+		(uuid "dd7b2e27-24b1-4ccf-b521-17a4d6b964f3")
 	)
 	(junction
 		(at 229.87 107.95)
@@ -1782,6 +1589,84 @@
 			(project "STM32-Pedal"
 				(path "/a4106809-e56d-4105-b188-893816df5641/20c42f7e-5ce7-467e-a6d2-62bc3fc539c0"
 					(reference "C403")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+9V")
+		(at 44.45 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0da53d31-ad62-402e-8b0a-4526325e512d")
+		(property "Reference" "#PWR088"
+			(at 44.45 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+9V"
+			(at 44.45 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+9V\""
+			(at 44.45 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8874a28b-82c8-4635-b3c7-83f0ac2cec3d")
+		)
+		(instances
+			(project "STM32-Pedal"
+				(path "/a4106809-e56d-4105-b188-893816df5641/20c42f7e-5ce7-467e-a6d2-62bc3fc539c0"
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -2777,84 +2662,6 @@
 			(project "STM32-Pedal"
 				(path "/a4106809-e56d-4105-b188-893816df5641/20c42f7e-5ce7-467e-a6d2-62bc3fc539c0"
 					(reference "R402")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 44.45 87.63 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "91a4d602-16d7-4415-b132-aa48aca7eda4")
-		(property "Reference" "#PWR03"
-			(at 44.45 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 44.45 82.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_QFP:TQFP-44_10x10mm_P0.8mm"
-			(at 44.45 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 44.45 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "49702ed8-f178-424f-a592-78be498d2841")
-		)
-		(instances
-			(project "STM32-Pedal"
-				(path "/a4106809-e56d-4105-b188-893816df5641/20c42f7e-5ce7-467e-a6d2-62bc3fc539c0"
-					(reference "#PWR03")
 					(unit 1)
 				)
 			)
