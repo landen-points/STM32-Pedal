@@ -5793,7 +5793,7 @@
 		)
 		(uuid "136fa7d8-f1cb-4a0a-adcf-db9eacfb5f11")
 	)
-	(text "Disable VREFBUF in firmware\nBOOT_ADD1 = 0x1FF0 <- this may depend on bootloader version\n(might need external clock)\n\nSAI1 block A: slave transmitter, async. Recieve ext clock through PE5/PE4\nand transmit through PE6\n\nSAI1 block B: slave reciever, internal sync to block A, recieves through PE3\nShares block A clocks internally\n\nAudio format: I2S, stereo, 24-bit samples in two 32-bit slots\n\nI2C1: PB8/9, initially 100kHz\n\nPG0: push-pull output, initially low to hold codec in reset"
+	(text "Disable VREFBUF in firmware\nBOOT_ADD1 = 0x1FF0 <- this may depend on bootloader version\n(might need external clock)\n\nSAI1 block A: slave transmitter, async. Recieve ext clock through PE5/PE4\nand transmit through PE6\n\nSAI1 block B: slave reciever, internal sync to block A, recieves through PE3\nShares block A clocks internally\n\nAudio format: I2S, stereo, 24-bit samples in two 32-bit slots\n\nI2C1: PB8/9, initially 100kHz. codec has addr 0x10\n\nPG0: push-pull output, initially low to hold codec in reset"
 		(exclude_from_sim no)
 		(at 91.44 22.352 0)
 		(effects
@@ -7560,6 +7560,17 @@
 		)
 		(uuid "04a4ef3e-3c78-4f59-a395-5672794bcda7")
 	)
+	(hierarchical_label "BYPASS_BUTTON"
+		(shape input)
+		(at 304.8 161.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1568122e-8c00-410d-a073-03c473b6c67a")
+	)
 	(hierarchical_label "SAI_FRAME_SYNC"
 		(shape input)
 		(at 168.91 191.77 180)
@@ -7616,7 +7627,7 @@
 		(uuid "6d281bba-e855-4498-adc2-aa8ab72e48ae")
 	)
 	(hierarchical_label "USB_DP"
-		(shape input)
+		(shape bidirectional)
 		(at 260.35 97.79 0)
 		(effects
 			(font
@@ -7625,6 +7636,17 @@
 			(justify left)
 		)
 		(uuid "c183eb61-ece2-4f31-b4bc-b89f93763b78")
+	)
+	(hierarchical_label "RELAY_CTRL"
+		(shape output)
+		(at 304.8 163.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f381ae86-3b7f-4e21-875f-da9f08afacd6")
 	)
 	(hierarchical_label "SAI_R"
 		(shape input)
@@ -7649,7 +7671,7 @@
 		(uuid "f67c9d3d-4548-4822-ad39-b6d02083a39b")
 	)
 	(hierarchical_label "USB_DM"
-		(shape input)
+		(shape bidirectional)
 		(at 260.35 95.25 0)
 		(effects
 			(font

@@ -1017,7 +1017,7 @@
 	)
 	(rectangle
 		(start 90.17 73.66)
-		(end 255.27 130.81)
+		(end 259.08 130.81)
 		(stroke
 			(width 0)
 			(type dash)
@@ -1030,7 +1030,7 @@
 	)
 	(text "SENSITIVE ANALOG"
 		(exclude_from_sim no)
-		(at 108.458 69.088 0)
+		(at 112.268 69.088 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -1041,50 +1041,68 @@
 		(uuid "dd7b2e27-24b1-4ccf-b521-17a4d6b964f3")
 	)
 	(junction
-		(at 229.87 107.95)
+		(at 233.68 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0941de15-c979-433c-b8f7-750a2deac106")
 	)
 	(junction
-		(at 199.39 105.41)
+		(at 203.2 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "12ab2b9e-8f85-4165-b7de-f3f20ec6d845")
 	)
 	(junction
-		(at 147.32 105.41)
+		(at 151.13 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "39364452-fd11-4aa4-9d88-1c834f1ef302")
 	)
 	(junction
-		(at 182.88 105.41)
+		(at 186.69 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5ba7eeb3-6ac0-4492-9cb2-f4aba7048595")
 	)
 	(junction
-		(at 167.64 105.41)
+		(at 64.77 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66a0b98c-6fd0-411b-bda4-a4f5bb679ff6")
+	)
+	(junction
+		(at 171.45 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "71cd6e8b-c0d8-4974-b272-2e39cdf09fcf")
 	)
 	(junction
-		(at 116.84 102.87)
+		(at 106.68 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b2fed45-a411-41b6-bd4f-f3c838101d8d")
+	)
+	(junction
+		(at 120.65 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a56e48f2-d229-4845-985a-d5b8a991c6e3")
 	)
 	(junction
-		(at 44.45 100.33)
+		(at 77.47 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c50ee7ab-7973-4214-a3e9-972340e5606f")
+	)
+	(junction
+		(at 31.75 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c9de8eec-e31d-4333-befe-3f26aca31c04")
 	)
 	(wire
 		(pts
-			(xy 181.61 105.41) (xy 182.88 105.41)
+			(xy 185.42 105.41) (xy 186.69 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1094,7 +1112,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 87.63) (xy 73.66 92.71)
+			(xy 77.47 87.63) (xy 77.47 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1104,7 +1122,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 107.95) (xy 199.39 105.41)
+			(xy 203.2 107.95) (xy 203.2 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1114,7 +1132,27 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 100.33) (xy 44.45 100.33)
+			(xy 50.8 91.44) (xy 64.77 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06eaea1a-d4be-4e7b-8c2e-1bee76b346f0")
+	)
+	(wire
+		(pts
+			(xy 64.77 96.52) (xy 64.77 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0739877e-2ecc-44f0-8bc0-21be66a0fb7b")
+	)
+	(wire
+		(pts
+			(xy 44.45 100.33) (xy 31.75 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1124,7 +1162,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 107.95) (xy 229.87 107.95)
+			(xy 228.6 107.95) (xy 233.68 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1134,7 +1172,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 99.06) (xy 116.84 102.87)
+			(xy 120.65 99.06) (xy 120.65 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1144,7 +1182,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 105.41) (xy 199.39 105.41)
+			(xy 196.85 105.41) (xy 203.2 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1154,7 +1192,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 90.17) (xy 229.87 90.17)
+			(xy 213.36 90.17) (xy 233.68 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1164,7 +1202,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 107.95) (xy 238.76 107.95)
+			(xy 233.68 107.95) (xy 242.57 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1174,7 +1212,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 107.95) (xy 129.54 107.95)
+			(xy 130.81 107.95) (xy 133.35 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1184,7 +1222,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 107.95) (xy 127 115.57)
+			(xy 130.81 107.95) (xy 130.81 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1194,7 +1232,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 105.41) (xy 182.88 90.17)
+			(xy 186.69 105.41) (xy 186.69 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1204,7 +1242,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 107.95) (xy 73.66 113.03)
+			(xy 77.47 107.95) (xy 77.47 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1214,7 +1252,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 90.17) (xy 229.87 107.95)
+			(xy 233.68 90.17) (xy 233.68 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1224,7 +1262,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 102.87) (xy 129.54 102.87)
+			(xy 120.65 102.87) (xy 133.35 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1234,7 +1272,37 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 110.49) (xy 33.02 113.03)
+			(xy 50.8 104.14) (xy 50.8 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5be1dbc8-4016-4b30-92f3-00904ec7c152")
+	)
+	(wire
+		(pts
+			(xy 102.87 102.87) (xy 110.49 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cb03399-a7ab-4339-8e45-e7b4d10cf985")
+	)
+	(wire
+		(pts
+			(xy 106.68 111.76) (xy 106.68 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cca4dc9-a84d-4b8d-9156-36626ffa1ba1")
+	)
+	(wire
+		(pts
+			(xy 20.32 110.49) (xy 20.32 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1244,7 +1312,17 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 115.57) (xy 199.39 118.11)
+			(xy 50.8 96.52) (xy 50.8 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ee08dda-8695-486a-aa7d-fdffd101f70c")
+	)
+	(wire
+		(pts
+			(xy 203.2 115.57) (xy 203.2 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1254,7 +1332,17 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 107.95) (xy 229.87 118.11)
+			(xy 64.77 104.14) (xy 64.77 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67282372-02c9-4f2f-a4ca-d592998b2474")
+	)
+	(wire
+		(pts
+			(xy 233.68 107.95) (xy 233.68 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1264,7 +1352,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 100.33) (xy 167.64 105.41)
+			(xy 171.45 100.33) (xy 171.45 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1274,7 +1362,17 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 87.63) (xy 167.64 92.71)
+			(xy 77.47 91.44) (xy 77.47 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76cecad9-a452-4383-98b8-2250fb6145f1")
+	)
+	(wire
+		(pts
+			(xy 171.45 87.63) (xy 171.45 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1284,7 +1382,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 110.49) (xy 209.55 110.49)
+			(xy 209.55 110.49) (xy 213.36 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1294,7 +1392,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 110.49) (xy 44.45 113.03)
+			(xy 31.75 110.49) (xy 31.75 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1304,7 +1402,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 110.49) (xy 205.74 118.11)
+			(xy 209.55 110.49) (xy 209.55 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1314,7 +1412,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 87.63) (xy 116.84 91.44)
+			(xy 120.65 87.63) (xy 120.65 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1324,7 +1422,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 102.87) (xy 116.84 102.87)
+			(xy 118.11 102.87) (xy 120.65 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1334,7 +1432,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 105.41) (xy 173.99 105.41)
+			(xy 166.37 105.41) (xy 177.8 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1344,7 +1442,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 90.17) (xy 201.93 90.17)
+			(xy 186.69 90.17) (xy 205.74 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1354,17 +1452,17 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 102.87) (xy 106.68 102.87)
+			(xy 106.68 102.87) (xy 106.68 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a8601d85-a5e1-4f0b-a776-ebde26c3870f")
+		(uuid "aa6ed46c-321b-4264-af72-45a32f24d3e8")
 	)
 	(wire
 		(pts
-			(xy 127 115.57) (xy 147.32 115.57)
+			(xy 130.81 115.57) (xy 151.13 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1374,7 +1472,17 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 87.63) (xy 44.45 90.17)
+			(xy 64.77 91.44) (xy 77.47 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6caa2bd-47c9-4d69-bf6e-7c59bad7815e")
+	)
+	(wire
+		(pts
+			(xy 31.75 87.63) (xy 31.75 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1384,7 +1492,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 97.79) (xy 44.45 100.33)
+			(xy 31.75 97.79) (xy 31.75 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1394,7 +1502,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 105.41) (xy 185.42 105.41)
+			(xy 186.69 105.41) (xy 189.23 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1404,7 +1512,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 100.33) (xy 44.45 102.87)
+			(xy 31.75 100.33) (xy 31.75 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1414,7 +1522,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 100.33) (xy 44.45 100.33)
+			(xy 20.32 100.33) (xy 31.75 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1424,7 +1532,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 102.87) (xy 33.02 100.33)
+			(xy 20.32 102.87) (xy 20.32 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1434,7 +1542,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 105.41) (xy 147.32 105.41)
+			(xy 148.59 105.41) (xy 151.13 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1444,7 +1552,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 105.41) (xy 209.55 105.41)
+			(xy 203.2 105.41) (xy 213.36 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1454,7 +1562,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 105.41) (xy 147.32 115.57)
+			(xy 151.13 105.41) (xy 151.13 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1464,7 +1572,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 87.63) (xy 57.15 100.33)
+			(xy 44.45 87.63) (xy 44.45 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1474,7 +1582,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 105.41) (xy 154.94 105.41)
+			(xy 151.13 105.41) (xy 158.75 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1484,7 +1592,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 118.11) (xy 229.87 118.11)
+			(xy 209.55 118.11) (xy 233.68 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1494,7 +1602,7 @@
 	)
 	(hierarchical_label "IN_BUFFERED"
 		(shape output)
-		(at 238.76 107.95 0)
+		(at 242.57 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1503,20 +1611,20 @@
 		)
 		(uuid "59f6921d-431a-4ac9-8f54-672fd083ea54")
 	)
-	(hierarchical_label "AUX_IN"
+	(hierarchical_label "EFFECT_IN"
 		(shape input)
-		(at 101.6 102.87 180)
+		(at 102.87 102.87 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "a20b265a-eb82-47d8-9c95-64637638f809")
+		(uuid "caa7edc6-bb5a-4b44-b899-48d1a0dce61a")
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 158.75 105.41 270)
+		(at 162.56 105.41 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1526,8 +1634,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "099ecd81-781e-4755-9a51-a401899c00a7")
-		(property "Reference" "C403"
-			(at 158.75 97.79 90)
+		(property "Reference" "C405"
+			(at 162.56 97.79 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1537,7 +1645,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 158.75 100.33 90)
+			(at 162.56 100.33 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1546,8 +1654,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 154.94 106.3752 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 158.75 106.3752 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1558,7 +1666,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 105.41 0)
+			(at 162.56 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1568,8 +1676,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 158.75 105.41 0)
+		(property "Description" "C0G/NP0"
+			(at 162.56 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1588,7 +1696,7 @@
 		(instances
 			(project "STM32-Pedal"
 				(path "/a4106809-e56d-4105-b188-893816df5641/20c42f7e-5ce7-467e-a6d2-62bc3fc539c0"
-					(reference "C403")
+					(reference "C405")
 					(unit 1)
 				)
 			)
@@ -1596,7 +1704,7 @@
 	)
 	(symbol
 		(lib_id "power:+9V")
-		(at 44.45 87.63 0)
+		(at 31.75 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1607,7 +1715,7 @@
 		(fields_autoplaced yes)
 		(uuid "0da53d31-ad62-402e-8b0a-4526325e512d")
 		(property "Reference" "#PWR088"
-			(at 44.45 91.44 0)
+			(at 31.75 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1618,6 +1726,322 @@
 			)
 		)
 		(property "Value" "+9V"
+			(at 31.75 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+9V\""
+			(at 31.75 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8874a28b-82c8-4635-b3c7-83f0ac2cec3d")
+		)
+		(instances
+			(project "STM32-Pedal"
+				(path "/a4106809-e56d-4105-b188-893816df5641/20c42f7e-5ce7-467e-a6d2-62bc3fc539c0"
+					(reference "#PWR088")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+4V")
+		(at 171.45 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0eb7ac42-7189-448a-b0bc-f166be2efc8d")
+		(property "Reference" "#PWR098"
+			(at 171.45 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBIAS_4V5"
+			(at 171.45 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+4V\""
+			(at 171.45 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d54f655b-3b58-4d9f-9e57-0d7c740b4f34")
+		)
+		(instances
+			(project "STM32-Pedal"
+				(path "/a4106809-e56d-4105-b188-893816df5641/20c42f7e-5ce7-467e-a6d2-62bc3fc539c0"
+					(reference "#PWR098")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 64.77 100.33 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10f55d7f-37d0-4501-ab08-9b8eb87146d4")
+		(property "Reference" "C403"
+			(at 68.58 99.0599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 68.58 101.5999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 63.8048 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "X7R"
+			(at 64.77 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2eb4573c-957c-4c72-8abb-e699fce744a1")
+		)
+		(pin "1"
+			(uuid "fe19ea57-884d-46c8-8ae7-62a281acdaf4")
+		)
+		(instances
+			(project "STM32-Pedal"
+				(path "/a4106809-e56d-4105-b188-893816df5641/20c42f7e-5ce7-467e-a6d2-62bc3fc539c0"
+					(reference "C403")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+9V")
+		(at 77.47 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a999b90-6e05-4e90-a57a-c50e9807528d")
+		(property "Reference" "#PWR017"
+			(at 77.47 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+9V"
+			(at 77.47 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+9V\""
+			(at 77.47 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "57c938be-cbb8-4b21-b3de-a8550823a84b")
+		)
+		(instances
+			(project "STM32-Pedal"
+				(path "/a4106809-e56d-4105-b188-893816df5641/20c42f7e-5ce7-467e-a6d2-62bc3fc539c0"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+4V")
+		(at 44.45 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e5f74c8-dafb-4911-93d0-9458ab28ec57")
+		(property "Reference" "#PWR096"
+			(at 44.45 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBIAS_4V5"
 			(at 44.45 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1649,7 +2073,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+9V\""
+		(property "Description" "Power symbol creates a global label with name \"+4V\""
 			(at 44.45 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -1661,90 +2085,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "8874a28b-82c8-4635-b3c7-83f0ac2cec3d")
+			(uuid "4a4ec9f9-6444-48c8-853b-7e9b8b7d36f6")
 		)
 		(instances
 			(project "STM32-Pedal"
 				(path "/a4106809-e56d-4105-b188-893816df5641/20c42f7e-5ce7-467e-a6d2-62bc3fc539c0"
-					(reference "#PWR088")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+9V")
-		(at 73.66 87.63 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1a999b90-6e05-4e90-a57a-c50e9807528d")
-		(property "Reference" "#PWR017"
-			(at 73.66 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+9V"
-			(at 73.66 82.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 73.66 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+9V\""
-			(at 73.66 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "57c938be-cbb8-4b21-b3de-a8550823a84b")
-		)
-		(instances
-			(project "STM32-Pedal"
-				(path "/a4106809-e56d-4105-b188-893816df5641/20c42f7e-5ce7-467e-a6d2-62bc3fc539c0"
-					(reference "#PWR017")
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
@@ -1752,7 +2098,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 73.66 113.03 0)
+		(at 77.47 113.03 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1763,7 +2109,7 @@
 		(fields_autoplaced yes)
 		(uuid "2491d9d8-1ac4-4f33-8a61-46a07752690a")
 		(property "Reference" "#PWR08"
-			(at 73.66 119.38 0)
+			(at 77.47 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1774,7 +2120,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 73.66 118.11 0)
+			(at 77.47 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1784,7 +2130,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 113.03 0)
+			(at 77.47 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1795,7 +2141,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 113.03 0)
+			(at 77.47 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1806,7 +2152,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 73.66 113.03 0)
+			(at 77.47 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1830,7 +2176,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 199.39 111.76 180)
+		(at 203.2 111.76 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1839,8 +2185,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2e2ab140-dbc8-41f8-b3cd-a7db2f4b2eb3")
-		(property "Reference" "C405"
-			(at 191.262 110.236 0)
+		(property "Reference" "C407"
+			(at 195.072 110.236 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1851,7 +2197,7 @@
 			)
 		)
 		(property "Value" "1.8nF"
-			(at 191.262 112.776 0)
+			(at 195.072 112.776 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1861,8 +2207,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 198.4248 107.95 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 202.2348 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1873,7 +2219,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 111.76 0)
+			(at 203.2 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1883,8 +2229,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 199.39 111.76 0)
+		(property "Description" "C0G/NP0"
+			(at 203.2 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1903,7 +2249,7 @@
 		(instances
 			(project "STM32-Pedal"
 				(path "/a4106809-e56d-4105-b188-893816df5641/20c42f7e-5ce7-467e-a6d2-62bc3fc539c0"
-					(reference "C405")
+					(reference "C407")
 					(unit 1)
 				)
 			)
@@ -1911,7 +2257,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 44.45 113.03 0)
+		(at 31.75 113.03 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1922,7 +2268,7 @@
 		(fields_autoplaced yes)
 		(uuid "3a4a2c2e-166b-4741-875c-5aaa09c0ae33")
 		(property "Reference" "#PWR04"
-			(at 44.45 119.38 0)
+			(at 31.75 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1933,7 +2279,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 44.45 118.11 0)
+			(at 31.75 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1943,7 +2289,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 113.03 0)
+			(at 31.75 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1954,7 +2300,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 113.03 0)
+			(at 31.75 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1965,7 +2311,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 44.45 113.03 0)
+			(at 31.75 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1988,86 +2334,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+4V")
-		(at 116.84 87.63 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "690c96e3-5851-4e80-b0cd-60fe1d004a4e")
-		(property "Reference" "#PWR06"
-			(at 116.84 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+4.5V"
-			(at 116.84 82.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_QFP:TQFP-44_10x10mm_P0.8mm"
-			(at 116.84 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+4V\""
-			(at 116.84 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4806b47e-2552-4865-a746-afaf9533c133")
-		)
-		(instances
-			(project "STM32-Pedal"
-				(path "/a4106809-e56d-4105-b188-893816df5641/20c42f7e-5ce7-467e-a6d2-62bc3fc539c0"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
-		(at 167.64 96.52 180)
+		(at 106.68 107.95 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2076,9 +2344,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6ef26b4b-47e9-4394-b854-020a6c8e52b9")
-		(property "Reference" "R404"
-			(at 170.18 95.2499 0)
+		(uuid "3b73993c-7f8f-40cc-94a1-9d678b4a6625")
+		(property "Reference" "R403"
+			(at 109.22 106.6799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2088,8 +2356,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100k"
-			(at 170.18 97.7899 0)
+		(property "Value" "2.2M"
+			(at 109.22 109.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2099,8 +2367,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 166.624 96.266 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 105.664 107.696 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2111,7 +2379,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 96.52 0)
+			(at 106.68 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2122,7 +2390,89 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 167.64 96.52 0)
+			(at 106.68 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "82dd4b71-f16a-400d-8412-ad8d7951fb0a")
+		)
+		(pin "2"
+			(uuid "130ec07b-d051-425c-b5fd-5f154ea2a8fd")
+		)
+		(instances
+			(project "STM32-Pedal"
+				(path "/a4106809-e56d-4105-b188-893816df5641/20c42f7e-5ce7-467e-a6d2-62bc3fc539c0"
+					(reference "R403")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 171.45 96.52 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ef26b4b-47e9-4394-b854-020a6c8e52b9")
+		(property "Reference" "R405"
+			(at 173.99 95.2499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k"
+			(at 173.99 97.7899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 170.434 96.266 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 171.45 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2141,7 +2491,89 @@
 		(instances
 			(project "STM32-Pedal"
 				(path "/a4106809-e56d-4105-b188-893816df5641/20c42f7e-5ce7-467e-a6d2-62bc3fc539c0"
-					(reference "R404")
+					(reference "R405")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 50.8 100.33 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "71429d8c-1d14-47a0-8ef7-68693e94a2af")
+		(property "Reference" "C402"
+			(at 54.61 99.0599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 54.61 101.5999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 49.8348 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 50.8 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "26e158d2-2530-4b9a-b47a-236c1caf6111")
+		)
+		(pin "1"
+			(uuid "fa49bc87-3995-4418-8436-602c968d9b19")
+		)
+		(instances
+			(project "STM32-Pedal"
+				(path "/a4106809-e56d-4105-b188-893816df5641/20c42f7e-5ce7-467e-a6d2-62bc3fc539c0"
+					(reference "C402")
 					(unit 1)
 				)
 			)
@@ -2149,7 +2581,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:OPA2134")
-		(at 137.16 105.41 0)
+		(at 140.97 105.41 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2160,7 +2592,7 @@
 		(fields_autoplaced yes)
 		(uuid "72a260b1-09f7-4538-a931-38a1b75c3041")
 		(property "Reference" "U401"
-			(at 137.16 95.25 0)
+			(at 140.97 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2170,7 +2602,7 @@
 			)
 		)
 		(property "Value" "OPA2134"
-			(at 137.16 97.79 0)
+			(at 140.97 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2179,8 +2611,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 137.16 105.41 0)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 140.97 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2191,7 +2623,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa134.pdf"
-			(at 137.16 105.41 0)
+			(at 140.97 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2202,7 +2634,7 @@
 			)
 		)
 		(property "Description" "Dual SoundPlus High Performance Audio Operational Amplifiers, DIP-8/SOIC-8"
-			(at 137.16 105.41 0)
+			(at 140.97 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2247,7 +2679,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 189.23 105.41 270)
+		(at 193.04 105.41 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2257,8 +2689,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75062572-b640-447e-bdbe-8b3b937826ca")
-		(property "Reference" "R406"
-			(at 189.23 99.06 90)
+		(property "Reference" "R407"
+			(at 193.04 99.06 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2267,8 +2699,8 @@
 				)
 			)
 		)
-		(property "Value" "2.4k"
-			(at 189.23 101.6 90)
+		(property "Value" "3.06k"
+			(at 193.04 101.6 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2277,8 +2709,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 188.976 106.426 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 192.786 106.426 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2289,7 +2721,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 105.41 0)
+			(at 193.04 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2299,8 +2731,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
-			(at 189.23 105.41 0)
+		(property "Description" "Metal film"
+			(at 193.04 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2319,7 +2751,7 @@
 		(instances
 			(project "STM32-Pedal"
 				(path "/a4106809-e56d-4105-b188-893816df5641/20c42f7e-5ce7-467e-a6d2-62bc3fc539c0"
-					(reference "R406")
+					(reference "R407")
 					(unit 1)
 				)
 			)
@@ -2327,7 +2759,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:OPA2134")
-		(at 217.17 107.95 0)
+		(at 220.98 107.95 0)
 		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2338,7 +2770,7 @@
 		(fields_autoplaced yes)
 		(uuid "76e4bbeb-5a0c-4836-a4d3-2bc36662a35e")
 		(property "Reference" "U401"
-			(at 217.17 97.79 0)
+			(at 220.98 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2348,7 +2780,7 @@
 			)
 		)
 		(property "Value" "OPA2134"
-			(at 217.17 100.33 0)
+			(at 220.98 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2357,8 +2789,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 217.17 107.95 0)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 220.98 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2369,7 +2801,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa134.pdf"
-			(at 217.17 107.95 0)
+			(at 220.98 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2380,7 +2812,7 @@
 			)
 		)
 		(property "Description" "Dual SoundPlus High Performance Audio Operational Amplifiers, DIP-8/SOIC-8"
-			(at 217.17 107.95 0)
+			(at 220.98 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2424,8 +2856,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 205.74 90.17 90)
+		(lib_id "power:GND")
+		(at 50.8 113.03 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2434,9 +2866,10 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "86952658-ffe1-46de-8634-091cd393769f")
-		(property "Reference" "C404"
-			(at 205.74 82.55 90)
+		(uuid "7e96bf00-7aed-44b1-a827-ba9f70c0042b")
+		(property "Reference" "#PWR095"
+			(at 50.8 119.38 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2445,8 +2878,8 @@
 				)
 			)
 		)
-		(property "Value" "3.3nF"
-			(at 205.74 85.09 90)
+		(property "Value" "GND"
+			(at 50.8 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2456,7 +2889,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 209.55 89.2048 0)
+			(at 50.8 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2467,7 +2900,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 90.17 0)
+			(at 50.8 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2477,8 +2910,85 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 205.74 90.17 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 50.8 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "73853cc6-08db-44a3-8964-5de1e9472d0f")
+		)
+		(instances
+			(project "STM32-Pedal"
+				(path "/a4106809-e56d-4105-b188-893816df5641/20c42f7e-5ce7-467e-a6d2-62bc3fc539c0"
+					(reference "#PWR095")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 209.55 90.17 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86952658-ffe1-46de-8634-091cd393769f")
+		(property "Reference" "C406"
+			(at 209.55 82.55 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.3nF"
+			(at 209.55 85.09 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 213.36 89.2048 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "C0G/NP0"
+			(at 209.55 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2497,7 +3007,7 @@
 		(instances
 			(project "STM32-Pedal"
 				(path "/a4106809-e56d-4105-b188-893816df5641/20c42f7e-5ce7-467e-a6d2-62bc3fc539c0"
-					(reference "C404")
+					(reference "C406")
 					(unit 1)
 				)
 			)
@@ -2505,7 +3015,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 44.45 93.98 180)
+		(at 31.75 93.98 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2516,7 +3026,7 @@
 		(fields_autoplaced yes)
 		(uuid "8823ea1f-5971-4337-a88a-3d7d04813e05")
 		(property "Reference" "R401"
-			(at 46.99 92.7099 0)
+			(at 34.29 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2527,7 +3037,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 46.99 95.2499 0)
+			(at 34.29 95.2499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2537,8 +3047,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 43.434 93.726 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 30.734 93.726 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2549,7 +3059,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 93.98 0)
+			(at 31.75 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2560,7 +3070,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 44.45 93.98 0)
+			(at 31.75 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2587,7 +3097,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 44.45 106.68 180)
+		(at 31.75 106.68 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2598,7 +3108,7 @@
 		(fields_autoplaced yes)
 		(uuid "89c4aefe-4281-403e-94a2-073e55c4477a")
 		(property "Reference" "R402"
-			(at 46.99 105.4099 0)
+			(at 34.29 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2609,7 +3119,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 46.99 107.9499 0)
+			(at 34.29 107.9499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2619,8 +3129,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 43.434 106.426 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 30.734 106.426 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2631,7 +3141,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 106.68 0)
+			(at 31.75 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2642,7 +3152,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 44.45 106.68 0)
+			(at 31.75 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2668,8 +3178,164 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 64.77 113.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b51575d-e52d-4cec-b5e2-9308f4e53065")
+		(property "Reference" "#PWR094"
+			(at 64.77 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 64.77 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 64.77 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "093e58a2-9987-4fe6-8031-56590a782baf")
+		)
+		(instances
+			(project "STM32-Pedal"
+				(path "/a4106809-e56d-4105-b188-893816df5641/20c42f7e-5ce7-467e-a6d2-62bc3fc539c0"
+					(reference "#PWR094")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+4V")
+		(at 120.65 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5d9c66b-979c-4c52-8f18-b7c4c1f19e5c")
+		(property "Reference" "#PWR097"
+			(at 120.65 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBIAS_4V5"
+			(at 120.65 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+4V\""
+			(at 120.65 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c430fce8-4a9c-4e6d-b0f9-6ede04b31c89")
+		)
+		(instances
+			(project "STM32-Pedal"
+				(path "/a4106809-e56d-4105-b188-893816df5641/20c42f7e-5ce7-467e-a6d2-62bc3fc539c0"
+					(reference "#PWR097")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:OPA2134")
-		(at 76.2 100.33 0)
+		(at 80.01 100.33 0)
 		(unit 3)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2680,7 +3346,7 @@
 		(fields_autoplaced yes)
 		(uuid "b950b55c-6bf8-4562-9020-4807074e7f96")
 		(property "Reference" "U401"
-			(at 74.93 99.0599 0)
+			(at 78.74 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2691,7 +3357,7 @@
 			)
 		)
 		(property "Value" "OPA2134"
-			(at 74.93 101.5999 0)
+			(at 78.74 101.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2701,8 +3367,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 76.2 100.33 0)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 80.01 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2713,7 +3379,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa134.pdf"
-			(at 76.2 100.33 0)
+			(at 80.01 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2724,7 +3390,7 @@
 			)
 		)
 		(property "Description" "Dual SoundPlus High Performance Audio Operational Amplifiers, DIP-8/SOIC-8"
-			(at 76.2 100.33 0)
+			(at 80.01 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2768,86 +3434,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+4V")
-		(at 167.64 87.63 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c469c5b6-5b0d-4475-821f-8913c5583909")
-		(property "Reference" "#PWR011"
-			(at 167.64 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+4.5V"
-			(at 167.64 82.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_QFP:TQFP-44_10x10mm_P0.8mm"
-			(at 167.64 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+4V\""
-			(at 167.64 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ce76f2db-433e-4f85-bec8-e5e03d29e6c5")
-		)
-		(instances
-			(project "STM32-Pedal"
-				(path "/a4106809-e56d-4105-b188-893816df5641/20c42f7e-5ce7-467e-a6d2-62bc3fc539c0"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
-		(at 177.8 105.41 270)
+		(at 181.61 105.41 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2857,8 +3445,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc8cb4bf-bf94-467f-b76e-f47f9b77f87a")
-		(property "Reference" "R405"
-			(at 177.8 99.06 90)
+		(property "Reference" "R406"
+			(at 181.61 99.06 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2867,8 +3455,8 @@
 				)
 			)
 		)
-		(property "Value" "2.4k"
-			(at 177.8 101.6 90)
+		(property "Value" "3.06k"
+			(at 181.61 101.6 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2877,8 +3465,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 177.546 106.426 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 181.356 106.426 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2889,7 +3477,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 105.41 0)
+			(at 181.61 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2899,8 +3487,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
-			(at 177.8 105.41 0)
+		(property "Description" "Metal film"
+			(at 181.61 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2919,85 +3507,7 @@
 		(instances
 			(project "STM32-Pedal"
 				(path "/a4106809-e56d-4105-b188-893816df5641/20c42f7e-5ce7-467e-a6d2-62bc3fc539c0"
-					(reference "R405")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+4V")
-		(at 57.15 87.63 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cf562c7c-9bd0-43bf-8d7b-aa2dd60f9359")
-		(property "Reference" "#PWR02"
-			(at 57.15 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+4.5V"
-			(at 57.15 82.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_QFP:TQFP-44_10x10mm_P0.8mm"
-			(at 57.15 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+4V\""
-			(at 57.15 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c75246fa-6903-421a-865d-8dd8a1f51394")
-		)
-		(instances
-			(project "STM32-Pedal"
-				(path "/a4106809-e56d-4105-b188-893816df5641/20c42f7e-5ce7-467e-a6d2-62bc3fc539c0"
-					(reference "#PWR02")
+					(reference "R406")
 					(unit 1)
 				)
 			)
@@ -3005,7 +3515,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 33.02 113.03 0)
+		(at 20.32 113.03 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3016,7 +3526,7 @@
 		(fields_autoplaced yes)
 		(uuid "d24ef93d-36b0-41d5-be6a-e62642290eec")
 		(property "Reference" "#PWR05"
-			(at 33.02 119.38 0)
+			(at 20.32 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3027,7 +3537,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 33.02 118.11 0)
+			(at 20.32 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3037,7 +3547,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 113.03 0)
+			(at 20.32 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3048,7 +3558,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 113.03 0)
+			(at 20.32 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3059,7 +3569,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 33.02 113.03 0)
+			(at 20.32 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3083,7 +3593,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 116.84 95.25 180)
+		(at 120.65 95.25 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3093,8 +3603,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4a5fb97-53d6-4971-8423-29f1a8334faf")
-		(property "Reference" "R403"
-			(at 119.38 93.9799 0)
+		(property "Reference" "R404"
+			(at 123.19 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3104,8 +3614,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100k"
-			(at 119.38 96.5199 0)
+		(property "Value" "2.2M"
+			(at 123.19 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3115,8 +3625,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 115.824 94.996 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 119.634 94.996 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3127,7 +3637,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 95.25 0)
+			(at 120.65 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3138,7 +3648,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 116.84 95.25 0)
+			(at 120.65 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3157,7 +3667,7 @@
 		(instances
 			(project "STM32-Pedal"
 				(path "/a4106809-e56d-4105-b188-893816df5641/20c42f7e-5ce7-467e-a6d2-62bc3fc539c0"
-					(reference "R403")
+					(reference "R404")
 					(unit 1)
 				)
 			)
@@ -3165,7 +3675,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 110.49 102.87 270)
+		(at 114.3 102.87 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3175,8 +3685,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ddb9a9d5-d95b-4c12-a337-1ed7a39b4466")
-		(property "Reference" "C402"
-			(at 110.49 95.25 90)
+		(property "Reference" "C404"
+			(at 114.3 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3186,7 +3696,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 110.49 97.79 90)
+			(at 114.3 97.79 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3195,8 +3705,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 106.68 103.8352 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 110.49 103.8352 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3207,7 +3717,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 102.87 0)
+			(at 114.3 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3217,8 +3727,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 110.49 102.87 0)
+		(property "Description" "C0G/NP0"
+			(at 114.3 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3237,7 +3747,7 @@
 		(instances
 			(project "STM32-Pedal"
 				(path "/a4106809-e56d-4105-b188-893816df5641/20c42f7e-5ce7-467e-a6d2-62bc3fc539c0"
-					(reference "C402")
+					(reference "C404")
 					(unit 1)
 				)
 			)
@@ -3245,7 +3755,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 33.02 106.68 180)
+		(at 20.32 106.68 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3256,7 +3766,7 @@
 		(fields_autoplaced yes)
 		(uuid "dfeb4fe2-16c4-4911-b334-1e69aa9ba049")
 		(property "Reference" "C401"
-			(at 36.83 105.4099 0)
+			(at 24.13 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3267,7 +3777,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 36.83 107.9499 0)
+			(at 24.13 107.9499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3277,8 +3787,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 32.0548 102.87 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 19.3548 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3289,7 +3799,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 106.68 0)
+			(at 20.32 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3300,7 +3810,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 33.02 106.68 0)
+			(at 20.32 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3327,7 +3837,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 199.39 118.11 0)
+		(at 203.2 118.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3338,7 +3848,7 @@
 		(fields_autoplaced yes)
 		(uuid "e0e7bbbc-e12e-45bd-bde2-cd0614c83db1")
 		(property "Reference" "#PWR010"
-			(at 199.39 124.46 0)
+			(at 203.2 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3349,7 +3859,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 199.39 123.19 0)
+			(at 203.2 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3359,7 +3869,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 199.39 118.11 0)
+			(at 203.2 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3370,7 +3880,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 118.11 0)
+			(at 203.2 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3381,7 +3891,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 199.39 118.11 0)
+			(at 203.2 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3398,6 +3908,84 @@
 			(project "STM32-Pedal"
 				(path "/a4106809-e56d-4105-b188-893816df5641/20c42f7e-5ce7-467e-a6d2-62bc3fc539c0"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 106.68 113.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f39749e1-7a98-4241-b0a0-215d8d85feab")
+		(property "Reference" "#PWR093"
+			(at 106.68 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 106.68 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 106.68 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5914caac-4b62-4cae-8c46-be0c67bd0de7")
+		)
+		(instances
+			(project "STM32-Pedal"
+				(path "/a4106809-e56d-4105-b188-893816df5641/20c42f7e-5ce7-467e-a6d2-62bc3fc539c0"
+					(reference "#PWR093")
 					(unit 1)
 				)
 			)
